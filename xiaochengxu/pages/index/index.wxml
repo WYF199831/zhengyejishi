@@ -1,0 +1,11 @@
+<!--pages/index/index.wxml-->
+<navigator url="../calendar/calendar">
+  <van-button block type="info">
+    日历
+  </van-button>
+</navigator>
+<navigator url="../bubble/bubble">
+  <van-button block type="info">
+    气泡(未完成)
+  </van-button>
+</navigator>

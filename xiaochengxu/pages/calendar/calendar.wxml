@@ -1,0 +1,14 @@
+<!--pages/calendar/calendar.wxml-->
+<van-cell title="日历" value="{{ date }}" bind:click="onDisplay" color="#8a8a8a"/>
+<van-calendar
+  show="{{ show }}"
+  type="multiple"
+  bind:close="onClose"
+  bind:confirm="onConfirm"
+  formatter="{{ formatter }}"
+  color="#3282F6"
+  title="日历"
+/>
+<view class="xianShi">
+  <text class="wenZi" wx:for="{{dates}}" wx:key="index">{{item}} ,</text>
+</view>

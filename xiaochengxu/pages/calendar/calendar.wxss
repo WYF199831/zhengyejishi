@@ -1,0 +1,20 @@
+/* pages/calendar/calendar.wxss */
+.van-calendar__bottom-info{
+  color: red !important;
+  bottom: 16px !important;
+    font-size: 30px !important;
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+}
+.van-calendar__bottom-info, .van-calendar__top-info{
+  font-size: 20px;
+}
+.xianShi{
+  width: 350px;
+  margin: 0 auto;
+}
+.wenZi{
+  margin-top: 10px;
+  margin-right: 6px;
+}

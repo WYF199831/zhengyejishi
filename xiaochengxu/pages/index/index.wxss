@@ -1,0 +1,4 @@
+/* pages/index/index.wxss */
+navigator{
+  margin-top: 60px;
+}
